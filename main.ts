@@ -12,6 +12,7 @@ input.onButtonPressed(Button.B, function () {
 })
 basic.pause(100)
 carcotrol.setNeoColor(carcotrol.colors(RGBColors.Black))
+carcotrol.setNeoColor(carcotrol.colors(RGBColors.Black))
 basic.showNumber(carcotrol.getCarType())
 basic.pause(2000)
 basic.forever(function () {
