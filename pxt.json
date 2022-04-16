@@ -6,7 +6,7 @@
         "radio": "*",
         "microphone": "*",
         "pxt-watchfont": "github:hokarimasahiro/pxt-watchfont#d5e3bf68305bc0ea0b17a19000a6f7f340f7f792",
-        "pxt-carcntrol": "github:hokarimasahiro/pxt-carcontrol#5edbb49476c27928510eb587f20faecc22e48cdc"
+        "pxt-prorcar": "github:hokarimasahiro/pxt-prorcar#master"
     },
     "files": [
         "main.blocks",
@@ -16,6 +16,10 @@
     "testFiles": [
         "test.ts"
     ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
     "supportedTargets": [
         "microbit"
     ],
